@@ -28,7 +28,8 @@
    },
    "require-dev":{
       "phpunit/phpunit":"@dev",
-      "mockery/mockery":"@dev"
+      "mockery/mockery":"@dev",
+      "Banteshwar/gravatarlib":"@dev"
    },
    "autoload":{
       "psr-4":{
