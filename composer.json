@@ -1,17 +1,17 @@
 {
-   "name":"Banteshwar/laravel-gravatar",
+   "name":"thomaswelton/laravel-gravatar",
    "description":"Laravel 5 Gravatar helper",
    "keywords":[
       "laravel",
       "laravel5",
       "gravatar"
    ],
-   "homepage":"https://github.com/Banteshwar/laravel-gravatar",
+   "homepage":"https://github.com/thomaswelton/laravel-gravatar",
    "license":"MIT",
    "authors":[
       {
-         "name":"Banteshwar",
-         "email":"bunty84singh@gmail.com",
+         "name":"ThomasWelton",
+         "email":"thomaswelton@me.com",
          "role":"Developer"
       },
       {
@@ -23,7 +23,7 @@
    "require":{
       "php":">=5.4.0",
       "illuminate/support":"~5.0",
-      "Banteshwar/gravatarlib":"0.1.x"
+      "thomaswelton/gravatarlib":"0.1.x"
    },
    "require-dev":{
       "phpunit/phpunit":"4.8.*",
@@ -31,17 +31,17 @@
    },
    "autoload":{
       "psr-4":{
-         "Banteshwar\\LaravelGravatar\\":"src/",
-         "Banteshwar\\Tests\\LaravelGravatar\\":"tests/"
+         "Thomaswelton\\LaravelGravatar\\":"src/",
+         "Thomaswelton\\Tests\\LaravelGravatar\\":"tests/"
       }
    },
    "extra": {
         "laravel": {
             "providers": [
-                "Banteshwar\\LaravelGravatar\\LaravelGravatarServiceProvider"
+                "Thomaswelton\\LaravelGravatar\\LaravelGravatarServiceProvider"
             ],
             "aliases": {
-                "Gravatar": "Banteshwar\\LaravelGravatar\\Facades\\Gravatar"
+                "Gravatar": "Thomaswelton\\LaravelGravatar\\Facades\\Gravatar"
             }
         }
     },
