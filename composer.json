@@ -24,7 +24,7 @@
    "require":{
       "php":">=5.4.0",
       "illuminate/support":"~5.0",
-      "Banteshwar/gravatarlib":"0.2.x"
+      "Banteshwar/gravatarlib":"@dev"
    },
    "require-dev":{
       "phpunit/phpunit":"4.8.*",
