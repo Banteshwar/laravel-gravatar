@@ -1,7 +1,7 @@
 {
    "name":"Banteshwar/laravel-gravatar",
    "description":"Laravel 5 Gravatar helper",
-    "minimum-stability": "dev",
+    
    "keywords":[
       "laravel",
       "laravel5",
