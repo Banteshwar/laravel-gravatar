@@ -1,0 +1,49 @@
+{
+   "name":"Banteshwar/laravel-gravatar",
+   "description":"Laravel 5 Gravatar helper",
+   "keywords":[
+      "laravel",
+      "laravel5",
+      "gravatar"
+   ],
+   "homepage":"https://github.com/Banteshwar/laravel-gravatar",
+   "license":"MIT",
+   "authors":[
+      {
+         "name":"Banteshwar",
+         "email":"bunty84singh@gmail.com",
+         "role":"Developer"
+      },
+      {
+         "name":"Antoine Augusti",
+         "email":"antoine.augusti@gmail.com",
+         "role":"Developer"
+      }
+   ],
+   "require":{
+      "php":">=5.4.0",
+      "illuminate/support":"~5.0",
+      "Banteshwar/gravatarlib":"0.1.x"
+   },
+   "require-dev":{
+      "phpunit/phpunit":"4.8.*",
+      "mockery/mockery":"0.9.*"
+   },
+   "autoload":{
+      "psr-4":{
+         "Banteshwar\\LaravelGravatar\\":"src/",
+         "Banteshwar\\Tests\\LaravelGravatar\\":"tests/"
+      }
+   },
+   "extra": {
+        "laravel": {
+            "providers": [
+                "Banteshwar\\LaravelGravatar\\LaravelGravatarServiceProvider"
+            ],
+            "aliases": {
+                "Gravatar": "Banteshwar\\LaravelGravatar\\Facades\\Gravatar"
+            }
+        }
+    },
+   "minimum-stability":"stable"
+}
